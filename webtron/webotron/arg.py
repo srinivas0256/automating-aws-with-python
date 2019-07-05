@@ -18,7 +18,7 @@ def list_buckets():
 @cli.command('list-bucket-objects')
 def list_bucket_objects():
     "List objects in an s3 bucket"
-    for obj in s3.Bucket('atomatingawssrini-boto3').objects.all():
+    for obj in s3.Bucket('automatingawssrini-boto3').objects.all():
         print(obj)
 
 if __name__ == '__main__':
