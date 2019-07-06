@@ -1,5 +1,5 @@
 import boto3
-session = boto3.Session(profile_name='pythonAutomation')
+session = boto3.Session(profile_name='pythonautomation')
 s3 = session.resource('s3')
 bucket = s3.create_bucket(Bucket='robinvideolyzervideos')
 bucket = s3.create_bucket(Bucket='robinvideolyzervideos', LocationConstraint=session.region_name)
