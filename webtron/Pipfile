@@ -10,6 +10,7 @@ ipython = "*"
 boto3 = "*"
 click = "*"
 htmllib = "*"
+pathlib = "*"
 
 [requires]
 python_version = "3.7"
